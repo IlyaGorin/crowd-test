@@ -13,7 +13,7 @@
   height: 100%;
   top: 0;
   left: 0;
-  background: url("/assets/images/hero-bg.webp") no-repeat center;
+  background: url("./assets/images/images/hero-bg.webp") no-repeat center;
   background-size: cover;
   mix-blend-mode: color-burn;
   z-index: 1;
@@ -85,7 +85,7 @@
   right: -214px;
   width: 1620px;
   height: 430px;
-  background: url("/assets/images/city.webp") no-repeat center;
+  background: url("./assets/images/images/city.webp") no-repeat center;
   background-size: contain;
   transform: translateY(0);
 }
@@ -96,7 +96,7 @@
   right: -192px;
   width: 1605px;
   height: 441px;
-  background: url("/assets/images/path.webp") no-repeat center;
+  background: url("./assets/images/images/path.webp") no-repeat center;
   background-size: contain;
 }
 
@@ -106,7 +106,7 @@
   right: 261px;
   width: 197px;
   height: 218px;
-  background: url("/assets/images/knight.webp") no-repeat center;
+  background: url("./assets/images/images/knight.webp") no-repeat center;
   background-size: contain;
 }
 
@@ -116,7 +116,7 @@
   bottom: 19px;
   width: 84px;
   height: 123px;
-  background: url("/assets/images/pawn.webp") no-repeat center;
+  background: url("./assets/images/images/pawn.webp") no-repeat center;
   background-size: contain;
 }
 
@@ -126,7 +126,7 @@
   bottom: 164px;
   width: 131px;
   height: 266px;
-  background: url("/assets/images/prince.webp") no-repeat center;
+  background: url("./assets/images/images/prince.webp") no-repeat center;
   background-size: contain;
 }
 
@@ -136,7 +136,7 @@
   bottom: 269px;
   width: 147px;
   height: 266px;
-  background: url("/assets/images/chess.webp") no-repeat center;
+  background: url("./assets/images/images/chess.webp") no-repeat center;
   background-size: contain;
 }
 
@@ -146,7 +146,7 @@
   top: -52px;
   width: 661px;
   height: 616px;
-  background: url("/assets/images/sun.webp") no-repeat center;
+  background: url("./assets/images/images/sun.webp") no-repeat center;
   background-size: contain;
   transform: translate(20px, -25px);
 }
@@ -157,7 +157,7 @@
   top: -52px;
   width: 777px;
   height: 675px;
-  background: url("/assets/images/letters.svg") no-repeat center;
+  background: url("./assets/images/images/letters.svg") no-repeat center;
   background-size: contain;
   mix-blend-mode: overlay;
   transform: translateY(0);
