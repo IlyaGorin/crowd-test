@@ -1,0 +1,88 @@
+.button {
+  position: relative;
+  z-index: 3;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 263px;
+  height: 72px;
+  border: 2px solid #1F1F1F;
+  border-radius: 36px;
+  font-family: "Golos Text", sans-serif;
+  font-size: 16px;
+  line-height: 21px;
+  font-style: normal;
+  font-weight: 500;
+  color: #1F1F1F;
+  transition: var(--transition);
+}
+
+.button:hover {
+  text-decoration: none;
+  transition: var(--transition);
+  color: #fff;
+  background-color: #1F1F1F;
+}
+
+.button--black {
+  background-color: #1F1F1F;
+  color: #fff;
+}
+
+.button--black:hover {
+  background-color: var(--main-yellow);
+  border-color: var(--main-yellow);
+  color: #1F1F1F;
+}
+
+.button span {
+  max-width: 154px;
+  text-align: center;
+}
+
+.button--small {
+  min-width: 113px;
+  height: 35px;
+  border-width: 1px;
+  background-color: var(--main-white);
+  border-color: var(--main-blue);
+  color: var(--main-blue);
+}
+
+.button--small:hover {
+  background-color: var(--main-blue);
+}
+
+@media (max-width: 991px) {
+  .button {
+    min-width: 200px;
+    height: 60px
+  }
+}
+
+
+@media (max-width: 767px) {
+  .button {
+    min-width: 335px;
+    height: 47px;
+    border: none;
+    background: var(--main-white);
+  }
+
+  .button--black {
+    background-color: #1F1F1F;
+    color: #fff;
+  }
+
+  .button span {
+    max-width: none;
+  }
+
+  .button--small {
+    min-width: 113px;
+    height: 35px;
+    border: 1px solid var(--main-blue);
+    background-color: var(--main-white);
+    color: var(--main-blue);
+  }
+}

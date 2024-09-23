@@ -1,0 +1,34 @@
+.participants-slider .grid-row {
+  flex-wrap: nowrap;
+}
+
+.participants-slider__item {
+  transition: var(--transition);
+}
+
+.participants-slider__item.active {
+  transition: var(--transition);
+}
+
+.slides {
+  transition: var(--transition);
+  overflow: hidden;
+}
+
+.slider__container {
+  transition: all 0.4s ease;
+}
+
+@media (max-width: 991px) {
+  .participants-slider__item {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .participants-slider__item {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}

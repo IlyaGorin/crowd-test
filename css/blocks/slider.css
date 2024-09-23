@@ -1,0 +1,20 @@
+.slider-dots {
+  display: flex;
+  gap: 6px;
+}
+
+.slider-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--main-gray);
+  cursor: pointer;
+}
+
+.slider-dot--active {
+  background-color: var(--main-black);
+}
+
+.slider-disabled .slder-controls {
+  display: none;
+}

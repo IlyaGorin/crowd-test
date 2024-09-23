@@ -1,0 +1,151 @@
+.transformation-steps {
+  padding-top: 120px;
+  padding-bottom: 80px;
+}
+
+.transformation-steps__titles-wrapper {
+  display: flex;
+  margin-bottom: 52px;
+}
+
+.transformation-steps__title {
+  max-width: 806px;
+}
+
+.transformation-steps__list {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(3, minmax(112px, auto));
+  grid-gap: 20px;
+}
+
+.transformation-steps__slider {
+  position: relative;
+}
+
+.transformation-steps__slider::after {
+  content: "";
+  position: absolute;
+  right: -64px;
+  bottom: -4px;
+  width: 401px;
+  height: 235px;
+  background: url("/assets/images/airplane.webp") no-repeat center;
+  background-size: contain;
+}
+
+.transformation-steps__list .overlay {
+  grid-column: span 4;
+}
+
+.transformation-steps__list .overlay:nth-child(3) {
+  grid-row: span 2;
+}
+
+.transformation-steps__list .overlay:nth-child(7) {
+  grid-column: span 8;
+  padding-right: 276px;
+}
+
+@media (max-width: 1365px) {
+  .transformation-steps__slider::after {
+    width: 335px;
+    height: 208px;
+    right: 0;
+  }
+}
+
+@media (max-width: 1199px) {
+  .transformation-steps__slider::after {
+    right: -11px;
+  }
+}
+
+@media (max-width: 991px) {
+  .transformation-steps__slider::after {
+    right: -38px;
+  }
+
+  .transformation-steps__list .overlay:nth-child(7) {
+    padding-right: 0;
+    padding-bottom: 130px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .transformation-steps {
+    padding-top: 78px;
+  }
+
+  .transformation-steps__title {
+    margin-bottom: 90px;
+  }
+
+  .transformation-steps__slider::after {
+    left: 50%;
+    bottom: auto;
+    top: -134px;
+    width: 335px;
+    height: 208px;
+    transform: translateX(-50%) rotate(-6deg);
+  }
+
+  .transformation-steps__list {
+    grid-template-columns: repeat(5, 100%);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 0px;
+  }
+
+  .transformation-steps__list .overlay:nth-child(1) {
+    grid-column-start: 1;
+  }
+
+  .transformation-steps__list .overlay:nth-child(2) {
+    grid-column-start: 1;
+    grid-row-start: 2;
+  }
+
+  .transformation-steps__list .overlay:nth-child(3) {
+    grid-row: span 2 / span 2;
+    grid-column-start: 2;
+    grid-row-start: 1;
+  }
+
+  .transformation-steps__list .overlay:nth-child(4) {
+    grid-column-start: 3;
+    grid-row-start: 1;
+  }
+
+  .transformation-steps__list .overlay:nth-child(5) {
+    grid-column-start: 3;
+    grid-row-start: 2;
+  }
+
+  .transformation-steps__list .overlay:nth-child(6) {
+    grid-row: span 2 / span 2;
+    grid-column-start: 4;
+    grid-row-start: 1
+  }
+
+  .transformation-steps__list .overlay:nth-child(7) {
+    grid-row: span 2 / span 2;
+    grid-column-start: 5;
+    grid-row-start: 1;
+    padding-right: 0;
+    padding-bottom: 0;
+  }
+
+  .transformation-steps__list .step-item {
+    padding-top: 62px;
+  }
+
+  .transformation-steps__list .overlay:nth-child(2) .step-item {
+    padding-top: 29px;
+  }
+
+  .transformation-steps__list .overlay:nth-child(5) .step-item {
+    padding-top: 0;
+  }
+}

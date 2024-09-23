@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Клуб четырех коней</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrapper">
+        <a href="/" aria-label="Вернуться на главную">
+          <img
+            src="/assets/images/logo.svg"
+            alt="Логотип"
+            class="header__logo"
+            width="246"
+            height="36"
+          />
+        </a>
+      </div>
+    </header>
+    <main class="main">
+      <h1 class="visually-hidden">Клуб четырех коней</h1>
+      <section class="hero">
+        <div class="wrapper">
+          <div class="hero__layers">
+            <div class="hero__layer hero__layer--1"></div>
+            <div class="hero__layer hero__layer--2"></div>
+            <div class="hero__layer hero__layer--3"></div>
+            <div class="hero__layer hero__layer--4"></div>
+            <div class="hero__layer hero__layer--5"></div>
+            <div class="hero__layer hero__layer--6"></div>
+            <div class="hero__layer hero__layer--7"></div>
+            <div class="hero__layer hero__layer--8"></div>
+          </div>
+          <div class="grid-row">
+            <div class="hero__inner col col-m col-6">
+              <h2 class="hero__title title">
+                Превратите уездный город <span>в&nbsp;столицу</span>
+                <span>земного шара</span>
+              </h2>
+              <p class="hero__description">
+                Оплатите взнос на&nbsp;телеграммы для&nbsp;организации
+                Международного васюкинского турнира по&nbsp;шахматам
+              </p>
+              <ul class="hero__buttons">
+                <li>
+                  <a href="#lecture" class="hero__btn button button--black">
+                    <span>Поддержать шахматную мысль</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#game" class="hero__btn button">
+                    <span>Подробнее о&nbsp;турнире</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <aside class="runing-line">
+        <div class="runing-line__content-container">
+          <p class="runing-line__content">
+            Дело помощи утопающим — дело рук самих утопающих! &bull; Шахматы
+            двигают вперед не только культуру, но и экономику! &bull; Лед
+            тронулся, господа присяжные заседатели! &bull;
+          </p>
+        </div>
+      </aside>
+      <section class="events-list">
+        <h2 class="visually-hidden">Информация о мероприятиях клуба</h2>
+        <article class="events-list__item event event--lecture" id="lecture">
+          <div class="wrapper">
+            <figure class="grid-row">
+              <figcaption class="col col-m col-8 event__desc">
+                <p>
+                  <span>Чтобы поддержать Международный васюкинский турнир</span
+                  ><span
+                    >посетите лекцию на&nbsp;тему:
+                    <b>«Плодотворная дебютная идея»</b></span
+                  >
+                </p>
+              </figcaption>
+              <div class="event__img col col-m col-4">
+                <img
+                  src="/assets/images/event-img-1.webp"
+                  alt="Игроки во время шахматного турнира"
+                />
+              </div>
+            </figure>
+          </div>
+        </article>
+        <article
+          class="events-list__item event event-game event--game"
+          id="game"
+        >
+          <div class="wrapper">
+            <div class="grid-row">
+              <div class="event__img col col-m col-5 overlay">
+                <div class="event-game__layers">
+                  <div class="event-game__layer event-game__layer--1"></div>
+                  <div class="event-game__layer event-game__layer--2"></div>
+                  <div class="event-game__layer event-game__layer--3 svg-animate">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="339"
+                      height="341"
+                      viewBox="0 0 339 341"
+                      fill="none"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M0.366608 154.5L16.1169 114.275L50.8684 86.7488L77.1136 74.501L105.452 69.5367L118.886 48.1868L132.602 20.0515L174.25 0.117615L212.639 9.08704L248.585 48.2046V76.1162L231.301 93.0613L226.811 113.436L216.726 118.316L224.586 129.835L240 148.966L235.015 169.328L253.218 189L256.95 216.151H278.384L282.589 221.812L283.845 216.928L308.555 211.011L321.867 194.969H339L334.633 340.419L41.4053 330.508V311.387L0.366608 300.466V154.5ZM46.0387 307.826V326.028L330 335.626V199.603H324.043L311.135 215.158L287.637 220.784L284.659 232.368L276.054 220.784H253.218L247.592 194.969L230.382 170.81V148.966L221.115 133.08L210.855 126.13L212.51 115.209L222.77 110.244L227.072 90.7179L243.951 74.1701V50.0102L210.193 13.2739L174.25 9.08704L136.059 23.5336L123.152 50.0102L114.216 74.1701H106.273L92.7037 79.1344H78.1416L53.3198 90.7179L19.8931 117.194L5.00001 150.952V296.904L46.0387 307.826Z"
+                        fill="none"
+                        stroke="white"
+                        stroke-width="3"
+                        id="animated-path-1"
+                      />
+                    </svg>
+                  </div>
+                  <div class="event-game__layer event-game__layer--4 animate"></div>
+                  <div class="event-game__layer event-game__layer--5 animate"></div>
+                  <div class="event-game__layer event-game__layer--6 animate">
+                    <svg
+                      width="245"
+                      height="214"
+                      viewBox="0 0 245 214"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M110.084 167.114L105.997 213.708L167.919 131.305L244.971 118.44L186.806 112.839L215.766 69.5062L186.806 89.0378L200.886 28.8413L156.615 88.575L120.528 0.303565L120.528 74.1007L70.009 50.4891L87.727 93.5987L0.0827435 102.418L93.8696 131.305L39.8942 154.529L99.9483 154.529L67.7117 198.38L110.084 167.114Z"
+                        fill="#FBCE51"
+                        stroke="#FBCE51"
+                        stroke-width="1"
+                        id="animated-path-2"
+                      />
+                    </svg>
+                  </div>
+                  <div class="event-game__layer event-game__layer--7 svg-animate">
+                    <svg
+                      width="530"
+                      height="344"
+                      viewBox="0 0 530 344"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M329.784 307L261.362 253.531L120.991 337.155L193.062 253.531L61.5 344L90 297.5L12 309L93 240L0.504883 234.992L140.69 184.21L14.8091 152.851L162.253 148.45L68.7251 105.537L140.69 111.919L3.13434 5.97995L185.522 87.5047L156.032 0.186157L207.756 59.6032L228.49 27.6438L256.148 77.4776L274.252 42.1354L283.613 82.2731L344.07 47.0245L322.414 111.919L354.239 92.7362L329.784 128.049L529.495 125.869L329.784 164.87L375.606 175.978L338.809 178.755L483.22 230.132L348 220.5L408.084 272.236L322.414 250.5L329.784 307Z"
+                        fill="none"
+                        fill="none"
+                        stroke="#FBCE51"
+                        stroke-width="3"
+                        id="animated-path-3"
+                      />
+                    </svg>
+                  </div>
+                  <div class="event-game__layer event-game__layer--8"></div>
+                </div>
+              </div>
+              <div class="event__desc col col-m col-7">
+                <p>
+                  и Сеанс
+                  <b>одновременной игры в шахматы на 160 досках</b>
+                  гроссмейстера О. Бендера
+                </p>
+                <table class="event__table">
+                  <tr>
+                    <th>Место проведения:</th>
+                    <td>Клуб «Картонажник»</td>
+                  </tr>
+                  <tr>
+                    <th>Дата и время мероприятия:</th>
+                    <td>22&nbsp;июня 1927&nbsp;г. в&nbsp;18:00</td>
+                  </tr>
+                  <tr>
+                    <th>Стоимость входных билетов:</th>
+                    <td>20&nbsp;коп.</td>
+                  </tr>
+                  <tr>
+                    <th>Плата за игру:</th>
+                    <td>50&nbsp;коп.</td>
+                  </tr>
+                  <tr>
+                    <th>Взнос на&nbsp;телеграммы:</th>
+                    <td><s>100&nbsp;руб.</s> 21&nbsp;руб. 16&nbsp;коп.</td>
+                  </tr>
+                </table>
+                <a href="#"
+                  >По всем вопросам обращаться в администрацию
+                  к К. Михельсону</a
+                >
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section class="transformation-steps">
+        <div class="wrapper">
+          <div class="transformation-steps__titles-wrapper">
+            <h2 class="transformation-steps__title title title--h2">
+              Этапы преображения Васюков<sub
+                >Будущие источники обогащения васюкинцев</sub
+              >
+            </h2>
+          </div>
+          <div class="transformation-steps__slider transformation-steps-slider">
+            <div class="slder-controls">
+              <button
+                class="slier-controls__btn slier-controls__btn--prev round-button prev"
+                type="button"
+                aria-label="Предыдущий слайд"
+              ></button>
+              <button
+                class="slier-controls__btn slier-controls__btn--next round-button next"
+                type="button"
+                aria-label="Следующий слайд"
+              ></button>
+            </div>
+            <div class="slides">
+              <div class="slider__container transformation-steps__list">
+                <div class="slide overlay">
+                  <article class="transformation-steps__item step-item">
+                    <span class="step-item__number">1</span>
+                    <p>
+                      Строительство железнодорожной магистрали Москва-Васюки
+                    </p>
+                  </article>
+                </div>
+                <div class="slide overlay">
+                  <article class="transformation-steps__item step-item">
+                    <span class="step-item__number">2</span>
+                    <p>
+                      Открытие фешенебельной гостиницы «Проходная пешка»
+                      и&nbsp;других небоскрёбов
+                    </p>
+                  </article>
+                </div>
+                <div class="slide overlay">
+                  <article class="transformation-steps__item step-item">
+                    <span class="step-item__number">3</span>
+                    <p>
+                      Поднятие сельского хозяйства в&nbsp;радиусе на&nbsp;тысячу
+                      километров: производство овощей, фруктов, икры, шоколадных
+                      конфет
+                    </p>
+                  </article>
+                </div>
+                <div class="slide overlay">
+                  <article class="transformation-steps__item step-item">
+                    <span class="step-item__number">4</span>
+                    <p>Строительство дворца для&nbsp;турнира</p>
+                  </article>
+                </div>
+                <div class="slide overlay">
+                  <article class="transformation-steps__item step-item">
+                    <span class="step-item__number">5</span>
+                    <p>Размещение гаражей для гостевого автотранспорта</p>
+                  </article>
+                </div>
+                <div class="slide overlay">
+                  <article class="transformation-steps__item step-item">
+                    <span class="step-item__number">6</span>
+                    <p>
+                      Постройка сверхмощной радиостанции для передачи всему миру
+                      сенсационных результатов
+                    </p>
+                  </article>
+                </div>
+                <div class="slide overlay">
+                  <article class="transformation-steps__item step-item">
+                    <span class="step-item__number">7</span>
+                    <p>
+                      Создание аэропорта &laquo;Большие Васюки&raquo;
+                      с&nbsp;регулярным отправлением почтовых самолётов
+                      и&nbsp;дирижаблей во&nbsp;все концы света, включая
+                      Лос-Анжелос и&nbsp;Мельбурн
+                    </p>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="tournament-participants">
+        <div class="wrapper">
+          <h2 class="tournament-participants__title title title--h2">
+            Участники турнира
+          </h2>
+          <div class="tournament-participants__slider participants-slider">
+            <div class="tournament-participants__slder-controls slder-controls">
+              <button
+                class="slier-controls__btn slier-controls__btn--prev round-button prev"
+                type="button"
+                aria-label="Предыдущий слайд"
+              ></button>
+              <button
+                class="slier-controls__btn slier-controls__btn--next round-button next"
+                type="button"
+                aria-label="Следующий слайд"
+              ></button>
+            </div>
+            <div class="slides">
+              <div class="slider__container grid-row">
+                <div class="slide participants-slider__item col col-m col-4">
+                  <article class="participant-card">
+                    <div class="participant-card__img">
+                      <img
+                        src="/assets/images/avatar.svg"
+                        alt="Аватар участника"
+                        width="320"
+                        height="320"
+                      />
+                    </div>
+                    <div class="participant-card__desc">
+                      <h3 class="participant-card__name">
+                        Хозе-Рауль Капабланка
+                      </h3>
+                      <p class="participant-card__info">
+                        Чемпион мира по шахматам
+                      </p>
+                      <a
+                        href="#"
+                        target="_blank"
+                        class="button button--small participant-card__button"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </article>
+                </div>
+                <div class="slide participants-slider__item col col-m col-4">
+                  <article class="participant-card">
+                    <div class="participant-card__img">
+                      <img
+                        src="/assets/images/avatar.svg"
+                        alt="Аватар участника"
+                        width="320"
+                      />
+                    </div>
+                    <div class="participant-card__desc">
+                      <h3 class="participant-card__name">Эммануил Ласкер</h3>
+                      <p class="participant-card__info">
+                        Чемпион мира по шахматам
+                      </p>
+                      <a
+                        href="#"
+                        target="_blank"
+                        class="button button--small participant-card__button"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </article>
+                </div>
+                <div class="slide participants-slider__item col col-m col-4">
+                  <article class="participant-card">
+                    <div class="participant-card__img">
+                      <img
+                        src="/assets/images/avatar.svg"
+                        alt="Аватар участника"
+                        width="320"
+                        height="320"
+                      />
+                    </div>
+                    <div class="participant-card__desc">
+                      <h3 class="participant-card__name">Александр Алехин</h3>
+                      <p class="participant-card__info">
+                        Чемпион мира по шахматам
+                      </p>
+                      <a
+                        href="#"
+                        target="_blank"
+                        class="button button--small participant-card__button"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </article>
+                </div>
+                <div class="slide participants-slider__item col col-m col-4">
+                  <article class="participant-card">
+                    <div class="participant-card__img">
+                      <img
+                        src="/assets/images/avatar.svg"
+                        alt="Аватар участника"
+                        width="320"
+                        height="320"
+                      />
+                    </div>
+                    <div class="participant-card__desc">
+                      <h3 class="participant-card__name">Арон Нимцович</h3>
+                      <p class="participant-card__info">
+                        Чемпион мира по шахматам
+                      </p>
+                      <a
+                        href="#"
+                        target="_blank"
+                        class="button button--small participant-card__button"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </article>
+                </div>
+                <div class="slide participants-slider__item col col-m col-4">
+                  <article class="participant-card">
+                    <div class="participant-card__img">
+                      <img
+                        src="/assets/images/avatar.svg"
+                        alt="Аватар участника"
+                        width="320"
+                        height="320"
+                      />
+                    </div>
+                    <div class="participant-card__desc">
+                      <h3 class="participant-card__name">Рихард Рети</h3>
+                      <p class="participant-card__info">
+                        Чемпион мира по шахматам
+                      </p>
+                      <a
+                        href="#"
+                        target="_blank"
+                        class="button button--small participant-card__button"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </article>
+                </div>
+                <div class="slide participants-slider__item col col-m col-4">
+                  <article class="participant-card">
+                    <div class="participant-card__img">
+                      <img
+                        src="/assets/images/avatar.svg"
+                        alt="Аватар участника"
+                        width="320"
+                        height="320"
+                      />
+                    </div>
+                    <div class="participant-card__desc">
+                      <h3 class="participant-card__name">Остап Бендер</h3>
+                      <p class="participant-card__info">Гроссмейстер</p>
+                      <a
+                        href="#"
+                        target="_blank"
+                        class="button button--small participant-card__button"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <aside class="runing-line">
+        <div class="runing-line__content-container">
+          <p class="runing-line__content">
+            Дело помощи утопающим — дело рук самих утопающих! &bull; Шахматы
+            двигают вперед не только культуру, но и экономику! &bull; Лед
+            тронулся, господа присяжные заседатели! &bull;
+          </p>
+        </div>
+      </aside>
+    </main>
+    <footer class="footer">
+      <div class="wrapper">
+        <p class="footer__disclaimer">
+          Все персонажи, события и&nbsp;цитаты являются вымышленными
+          и&nbsp;не&nbsp;принадлежат создателям сайта. С&nbsp;подробностями
+          можно познакомиться в&nbsp;главе XXXIV романа Ильи Ильфа
+          и&nbsp;Евгения Петрова &laquo;Двенадцать стульев&raquo;.
+        </p>
+      </div>
+    </footer>
+    <script type="module" src="./js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,151 @@
+.event--game {
+  padding-top: 65px;
+}
+
+.event--lecture .grid-row {
+  display: flex;
+  align-items: center;
+}
+
+.event--lecture p {
+  padding-right: 25px;
+}
+
+.event__desc {
+  position: relative;
+}
+
+.event--game .event__desc p {
+  margin-bottom: 60px;
+}
+
+.event p {
+  font-family: var(--second-font);
+  font-size: 36px;
+  line-height: 48px;
+  text-transform: uppercase;
+}
+
+.event p b {
+  font-weight: 700;
+  color: var(--main-red);
+}
+
+.event__img img {
+  max-width: none;
+}
+
+.event__table {
+  width: 100%;
+  margin-bottom: 46px;
+  border-collapse: collapse;
+}
+
+.event__table th,
+.event__table td {
+  border-bottom: 2px solid #D0D0D0;
+  padding-bottom: 16px;
+  padding-top: 15px;
+}
+
+.event__table tr:last-child th,
+.event__table tr:last-child td {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.event__table tr:first-child th,
+.event__table tr:first-child td {
+  padding-top: 0;
+}
+
+
+.event__table th {
+  width: 307px;
+  text-align: left;
+  color: rgba(49, 49, 49, 0.7);
+  font-weight: 400;
+  border-right: 2px solid #D0D0D0;
+}
+
+.event__table td {
+  padding-left: 16px;
+  font-weight: 600;
+}
+
+.event__table s {
+  margin-right: 6px;
+}
+
+@media (max-width: 991px) {
+  .event__desc,
+  .event__img {
+    flex: 0 0 100%;
+    max-width: 100%;
+  } 
+}
+
+@media (max-width: 767px) {
+  .event p {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  .event--lecture .event__desc {
+    max-width: 335px;
+    margin: 0 auto;
+  }
+
+  .event--lecture .event__desc p {
+    display: flex;
+    flex-direction: column;
+    gap: 261px;
+    padding-right: 0;
+  }
+
+  .event--lecture .event__img {
+    position: absolute;
+    width: 335px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .event--game .event__img {
+    margin-bottom: -66px;
+  }
+
+  .event--game .event__desc p {
+    margin-bottom: 32px;
+  }
+
+  .event__table {
+    margin-bottom: 25px;
+  }
+
+  .event__table th,
+  .event__table td {
+    padding: 0;
+    border: none;
+    width: 100%;
+  }
+
+  .event__table tr {
+    display: flex;
+    flex-direction: column;
+    padding: 14px 0 15px;
+    border-bottom: 2px solid #D0D0D0;
+  }
+
+  .event__table tr:nth-child(4) {
+    flex-direction: row;
+  }
+
+  .event__table th {
+    margin-bottom: 12px;
+  }
+
+  .event__table tr:nth-child(4) th {
+    width: 272px;
+    margin-bottom: 0;
+  }
+}

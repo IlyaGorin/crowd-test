@@ -1,0 +1,19 @@
+.overlay {
+  z-index: -1;
+  position: relative;
+  background-color: var(--overlay-color);
+}
+
+.overlay::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url("/assets/images/hero-bg.webp") no-repeat center;
+  background-size: cover;
+  mix-blend-mode: color-burn;
+  z-index: 10;
+  pointer-events: none;
+}

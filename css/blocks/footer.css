@@ -1,0 +1,13 @@
+.footer {
+  padding: 40px 0 72px;
+  font-size: 16px;
+  line-height: 19px;
+  background-color: var(--overlay-color);
+  color: rgba(49, 49, 49, 0.7);
+}
+
+@media (max-width: 767px) {
+  .footer {
+    padding-bottom: 60px;
+  }
+}

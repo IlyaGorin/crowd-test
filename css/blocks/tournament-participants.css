@@ -1,0 +1,59 @@
+.tournament-participants {
+  padding-top: 121px;
+  padding-bottom: 140px;
+}
+
+.tournament-participants__title {
+  margin-bottom: 59px;
+}
+
+.tournament-participants__slider {
+  position: relative;
+}
+
+.tournament-participants__slder-controls {
+  position: absolute;
+  right: 0;
+  top: -115px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.tournament-participants__slder-controls .prev {
+  order: 1;
+}
+
+.tournament-participants__slder-controls .next {
+  order: 3;
+}
+
+.tournament-participants__slder-controls .slder-controls__slides-counter {
+  order: 2;
+}
+
+.slier-controls__btn--prev {
+  transform: rotate(180deg);
+}
+
+@media (max-width: 991px) {
+  .tournament-participants__slder-controls {
+    bottom: -77px;
+    top: auto;
+    left: 50%;
+    justify-content: center;
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 767px) {
+  .tournament-participants {
+    padding-top: 41px;
+    padding-bottom: 177px;
+  }
+
+  .tournament-participants__title {
+    margin-bottom: 40px;
+  }
+}

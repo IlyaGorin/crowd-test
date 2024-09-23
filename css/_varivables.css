@@ -1,0 +1,17 @@
+:root {
+  --main-font: "Golos Text", sans-serif;
+  --second-font: "Merriweather", serif;
+
+  --text-main-color: #313131;
+
+  --main-yellow: #FBCE51;
+  --main-red: #F54932;
+  --main-white: #fff;
+  --main-blue: #3057A2;
+  --main-black: #313131;
+  --main-gray: #D9D9D9;
+
+  --overlay-color: #E9DED4;
+
+  --transition: 0.155s ease-in-out;
+}

@@ -1,0 +1,116 @@
+.grid-row {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+
+.col {
+  padding: 0 10px;
+}
+
+.col-1 {
+  flex: 0 0 8.333333%;
+  max-width: 8.333333%;
+}
+
+.col-2 {
+  flex: 0 0 16.666667%;
+  max-width: 16.666667%;
+}
+
+.col-3 {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.col-4 {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+}
+
+.col-5 {
+  flex: 0 0 41.666667%;
+  max-width: 41.666667%;
+}
+
+.col-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.col-7 {
+  flex: 0 0 58.333333%;
+  max-width: 58.333333%;
+}
+
+.col-8 {
+  flex: 0 0 66.666667%;
+  max-width: 66.666667%;
+}
+
+.col-9 {
+  flex: 0 0 75%;
+  max-width: 75%;
+}
+
+.col-10 {
+  flex: 0 0 83.333333%;
+  max-width: 83.333333%;
+}
+
+.col-11 {
+  flex: 0 0 91.666667%;
+  max-width: 91.666667%;
+}
+
+.col-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.wrapper {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+
+
+@media (max-width: 1365px)  {
+  .wrapper {
+    max-width: 1160px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1199px) {
+  .wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+}
+
+
+@media (max-width: 991px) {
+  .wrapper {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .grid-row {
+    margin: 0;
+  }
+
+  .col-m {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .wrapper {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}

@@ -1,0 +1,26 @@
+@media (max-width: 767px) {
+  .transformation-steps-slider {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .transformation-steps-slider .slder-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 28px;
+  }
+
+  .transformation-steps-slider .prev {
+    order: 1;
+  }
+
+  .transformation-steps-slider .next {
+    order: 3;
+  }
+
+  .transformation-steps-slider .slider-dots {
+    order: 2;
+  }
+}

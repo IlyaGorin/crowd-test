@@ -1,0 +1,39 @@
+.step-item {
+  display: flex;
+  gap: 16px;
+  padding: 20px;
+}
+
+.step-item__number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  min-width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: var(--main-white);
+  font-weight: 600;
+}
+
+.step-item p {
+  font-weight: 500;
+}
+
+@media (max-width: 991px) {
+  .step-item {
+    flex-direction: column;
+  }
+
+  .step-item p {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+@media (max-width: 767px) {
+  .step-item {
+    height: 150px;
+    flex-direction: row;
+  }
+}
