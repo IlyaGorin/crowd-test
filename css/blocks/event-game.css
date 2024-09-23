@@ -23,7 +23,7 @@
   top: 38px;
   width: 406px;
   height: 438px;
-  background: url("/assets/images/game-bg-6.webp") no-repeat center;
+  background: url("./assets/images/game-bg-6.webp") no-repeat center;
   background-size: contain;
 }
 
@@ -33,7 +33,7 @@
   left: 80px;
   width: 325px;
   height: 330px;
-  background: url("/assets/images/game-bg-4.webp") no-repeat center;
+  background: url("./assets/images/game-bg-4.webp") no-repeat center;
   background-size: contain;
 }
 
@@ -51,7 +51,7 @@
   left: auto;
   width: 285px;
   height: 293px;
-  background: url("/assets/images/game-bg-2.webp") no-repeat center;
+  background: url("./assets/images/game-bg-2.webp") no-repeat center;
   background-size: contain;
   transform-origin: center 10px;
   transform: rotate(-5deg);
@@ -83,7 +83,7 @@
   bottom: -2px;
   width: 159px;
   height: 171px;
-  background: url("/assets/images/game-knight.webp") no-repeat center;
+  background: url("./assets/images/game-knight.webp") no-repeat center;
   background-size: contain;
 }
 
@@ -151,7 +151,7 @@
   left: auto;
   width: 122px;
   height: 242px;
-  background: url("/assets/images/game-bg-3.webp") no-repeat center;
+  background: url("./assets/images/game-bg-3.webp") no-repeat center;
   background-size: contain;
 }
 

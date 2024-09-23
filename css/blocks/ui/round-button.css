@@ -1,18 +1,18 @@
 .round-button {
   width: 44px;
   height: 44px;
-  background: url("/assets/images/arrow.svg") no-repeat center var(--main-black);
+  background: url("./assets/images/arrow.svg") no-repeat center var(--main-black);
   border-radius: 50%;
   transition: var(--transition);
 }
 
 .round-button:hover {
-  background: url("/assets/images/arrow.svg") no-repeat center var(--main-yellow);
+  background: url("./assets/images/arrow.svg") no-repeat center var(--main-yellow);
   transition: var(--transition);
 }
 
 .round-button:disabled {
-  background: url("/assets/images/arrow.svg") no-repeat center #D6D6D6;
+  background: url("./assets/images/arrow.svg") no-repeat center #D6D6D6;
   pointer-events: none;
 }
 
