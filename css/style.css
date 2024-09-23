@@ -1,7 +1,7 @@
-@import '.vendor/reset.css';
-@import '_varivables.css';
-@import '_layout.css';
-@import '_typography.css';
+@import './vendor/reset.css';
+@import 'varivables.css';
+@import 'layout.css';
+@import 'typography.css';
 @import './blocks/ui/button.css';
 @import './blocks/ui/round-button.css';
 @import './main.css';
